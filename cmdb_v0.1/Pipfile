@@ -6,6 +6,11 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
+django = "==1.11"
+mysqlclient = "*"
+pymysql = "*"
+mysql-python = "*"
+mysql-connector = "*"
 
 [requires]
 python_version = "3.5"
